@@ -27,7 +27,7 @@ function HomePage() {
       </Box>
       <br />
       <Box
-        bgImage="url('/public/Navigation.png')"
+        bgImage="url('Navigation.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
@@ -37,7 +37,7 @@ function HomePage() {
       </Box>
       <br />
       <Box
-        bgImage="url('/public/BackButton.png')"
+        bgImage="url('BackButton.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
@@ -47,7 +47,7 @@ function HomePage() {
       </Box>
 
       <Box
-        bgImage="url('/public/MainApp.png')"
+        bgImage="url('MainApp.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
