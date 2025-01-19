@@ -34,7 +34,7 @@ function Flexbox() {
       </Box>
 
       <Box
-        bgImage="url('./public/Flex.png')"
+        bgImage="url('/public/Flex.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

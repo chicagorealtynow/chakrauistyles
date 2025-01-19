@@ -26,7 +26,7 @@ function Position() {
       </Box>
 
       <Box
-        bgImage="url('./public/Position.png')"
+        bgImage="url('/public/Position.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

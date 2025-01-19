@@ -29,7 +29,7 @@ function Display() {
       </Box>
 
       <Box
-        bgImage="url('./public/Display.png')"
+        bgImage="url('/public/Display.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

@@ -27,7 +27,7 @@ function Layout() {
       </Box>
 
       <Box
-        bgImage="url('./public/Typography.png')"
+        bgImage="url('/public/Typography.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

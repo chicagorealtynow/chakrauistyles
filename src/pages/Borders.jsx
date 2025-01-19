@@ -25,7 +25,7 @@ function Borders() {
       </Box>
 
       <Box
-        bgImage="url('./public/Borders.png')"
+        bgImage="url('/public/Borders.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

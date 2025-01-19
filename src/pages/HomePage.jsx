@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Heading, Text } from "@chakra-ui/react";
 import Navigation from "../components/Navigation";
- 
 
 function HomePage() {
   return (
@@ -15,11 +14,10 @@ function HomePage() {
           Welcome to the Chakra UI styling examples. Use the navigation below to
           explore different styling options.
         </Text>
-    
       </Box>
 
       <Box
-        bgImage="url('./public/HomePage.png')"
+        bgImage="url('/public/HomePage.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
@@ -29,7 +27,7 @@ function HomePage() {
       </Box>
       <br />
       <Box
-        bgImage="url('./public/Navigation.png')"
+        bgImage="url('/public/Navigation.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
@@ -39,7 +37,7 @@ function HomePage() {
       </Box>
       <br />
       <Box
-        bgImage="url('./public/BackButton.png')"
+        bgImage="url('/public/BackButton.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
@@ -49,7 +47,7 @@ function HomePage() {
       </Box>
 
       <Box
-        bgImage="url('./public/MainApp.png')"
+        bgImage="url('/public/MainApp.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

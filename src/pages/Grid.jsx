@@ -38,7 +38,7 @@ function GridComponent() {
       </Box>
 
       <Box
-        bgImage="url('./public/Grid.png')"
+        bgImage="url('/public/Grid.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

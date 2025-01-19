@@ -25,7 +25,7 @@ function BorderRadius() {
       </Box>
 
       <Box
-        bgImage="url('./public/BorderRadius.png')"
+        bgImage="url('/public/BorderRadius.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
