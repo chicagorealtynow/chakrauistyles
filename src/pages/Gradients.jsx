@@ -33,7 +33,7 @@ function Gradients() {
         <BackButton />
       </Box>
       <Box
-        bgImage="url('/public/Gradient.png')"
+        bgImage="url('Gradient.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

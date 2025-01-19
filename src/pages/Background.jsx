@@ -48,7 +48,7 @@ function Background() {
       </Box>
 
       <Box
-        bgImage="url('/public/Background.png')"
+        bgImage="url('Background.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

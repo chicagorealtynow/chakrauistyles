@@ -32,7 +32,7 @@ function PseudoProps() {
       </Box>
 
       <Box
-        bgImage="url('/public/Pseudo.png')"
+        bgImage="url('Pseudo.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

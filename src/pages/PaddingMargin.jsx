@@ -36,7 +36,7 @@ function PaddingMargin() {
         <BackButton />
       </Box>
       <Box
-        bgImage="url('/public/Padding.png')"
+        bgImage="url('Padding.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

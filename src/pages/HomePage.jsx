@@ -17,7 +17,7 @@ function HomePage() {
       </Box>
 
       <Box
-        bgImage="url('/public/HomePage.png')"
+        bgImage="url('HomePage.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

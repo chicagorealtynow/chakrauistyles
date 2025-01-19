@@ -24,7 +24,7 @@ function Color() {
         <BackButton />
       </Box>
       <Box
-        bgImage="url('/public/Color.png')"
+        bgImage="url('Color.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"

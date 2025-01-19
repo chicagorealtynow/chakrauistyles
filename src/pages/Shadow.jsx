@@ -25,7 +25,7 @@ function Shadow() {
       </Box>
 
       <Box
-        bgImage="url('/public/Shadow.png')"
+        bgImage="url('Shadow.png')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="contain"
