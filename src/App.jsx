@@ -1,43 +1,46 @@
 import React from 'react';
-    import { Routes, Route } from 'react-router-dom';
-    import HomePage from './pages/HomePage';
-    import PaddingMargin from './pages/PaddingMargin';
-    import Color from './pages/Color';
-    import Gradients from './pages/Gradients';
-    import Typography from './pages/Typography';
-    import Layout from './pages/Layout';
-    import Display from './pages/Display';
-    import Flexbox from './pages/Flexbox';
-    import Grid from './pages/Grid';
-    import Background from './pages/Background';
-    import Borders from './pages/Borders';
-    import BorderRadius from './pages/BorderRadius';
-    import Position from './pages/Position';
-    import Shadow from './pages/Shadow';
-    import Filter from './pages/Filter';
-    import PseudoProps from './pages/PseudoProps';
+import { Box, Container, Flex, Icon, Text } from '@chakra-ui/react';
+import { Routes, Route } from 'react-router-dom';
+import { RiSparklingLine } from 'react-icons/ri';
+import Home from './pages/Home';
+import Listings from './pages/Listings';
+import PropertyDetail from './pages/PropertyDetail';
+import AIShowcase from './pages/AIShowcase';
+import AnalyticsDashboard from './pages/AnalyticsDashboard';
+import AdminDemo from './pages/AdminDemo';
+import SiteHeader from './components/SiteHeader';
+import ChatWidget from './components/ChatWidget';
 
-    function App() {
-      return (
+function App() {
+  return (
+    <Flex direction="column" minH="100vh">
+      <SiteHeader />
+      <Box as="main" flex="1" pb={20}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/padding-margin" element={<PaddingMargin />} />
-          <Route path="/color" element={<Color />} />
-          <Route path="/gradients" element={<Gradients />} />
-          <Route path="/typography" element={<Typography />} />
-          <Route path="/layout" element={<Layout />} />
-          <Route path="/display" element={<Display />} />
-          <Route path="/flexbox" element={<Flexbox />} />
-          <Route path="/grid" element={<Grid />} />
-          <Route path="/background" element={<Background />} />
-          <Route path="/borders" element={<Borders />} />
-          <Route path="/border-radius" element={<BorderRadius />} />
-          <Route path="/position" element={<Position />} />
-          <Route path="/shadow" element={<Shadow />} />
-          <Route path="/filter" element={<Filter />} />
-          <Route path="/pseudo-props" element={<PseudoProps />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/listings" element={<Listings />} />
+          <Route path="/properties/:id" element={<PropertyDetail />} />
+          <Route path="/ai-features" element={<AIShowcase />} />
+          <Route path="/analytics" element={<AnalyticsDashboard />} />
+          <Route path="/demo-controls" element={<AdminDemo />} />
         </Routes>
-      );
-    }
+      </Box>
+      <Box as="footer" bg="gray.900" color="gray.100" py={6} mt={10}>
+        <Container maxW="7xl">
+          <Flex justify="space-between" align={{ base: 'flex-start', md: 'center' }} direction={{ base: 'column', md: 'row' }} gap={3}>
+            <Flex align="center" gap={2}>
+              <Icon as={RiSparklingLine} color="teal.300" boxSize={5} />
+              <Text fontWeight="bold">Lumina Realty AI Studio</Text>
+            </Flex>
+            <Text fontSize="sm" color="gray.400">
+              Crafted to showcase AI-powered real estate experiences that adapt to any industry.
+            </Text>
+          </Flex>
+        </Container>
+      </Box>
+      <ChatWidget />
+    </Flex>
+  );
+}
 
-    export default App;
+export default App;
